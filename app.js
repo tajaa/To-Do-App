@@ -17,7 +17,7 @@ app.use(express.static("public"));
 
 // mongoose.connect("mongodb+srv://admin-bobby:Monday1984!@cluster0.ml3t3ay.mongodb.net/todolistDB", {useNewUrlParser: true});
 
-mongoose.connect("mongodb+srv://admin-bobby:Monday1984!@cluster0.ml3t3ay.mongodb.net/?retryWrites=true&w=majority/todolistDB2", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-bobby:Monday1984!@cluster0.ml3t3ay.mongodb.net/?retryWrites=true&w=majority/todolistDB", {useNewUrlParser: true});
 
 const itemsSchema = {
   name: String,
