@@ -1,2 +1,2 @@
-# just a simple to do list
-# run with node app.js 
+just a simple to do list
+run with node app.js 
